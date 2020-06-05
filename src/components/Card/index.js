@@ -2,11 +2,11 @@ import React from "react";
 
 function Card(props) {
     return (
-        <div className="card">
-            <div className="card-img-top">
+        <div className="box">
+            <figure class="card-image is-1by1">
                 <img alt={props.name} src={props.image} />
-            </div>
-            <div className="card-body">
+            </figure>
+            <div className="content">
                 <ul>
                     <li>
                         <strong>Name:</strong> {props.name}

@@ -42,7 +42,7 @@ class Search extends Component {
           </Alert>
           <SearchForm
             handleFormSubmit={this.handleFormSubmit}
-            handleInputChange={this.handleInputChange}
+            handleSearch={this.handleInputChange}
             breeds={this.state.breeds}
           />
           <SearchResults results={this.state.results} />
