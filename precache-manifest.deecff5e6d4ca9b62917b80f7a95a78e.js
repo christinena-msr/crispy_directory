@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f7da17653feb7e5d5a315e0c7cf3158e",
+    "revision": "a1f61c5ef724171dea4b58f30e32c188",
     "url": "/crispy_directory/index.html"
   },
   {
-    "revision": "4436aef043b2a485868c",
-    "url": "/crispy_directory/static/css/main.5f361e03.chunk.css"
+    "revision": "dd53a547432ae915fcc8",
+    "url": "/crispy_directory/static/css/main.60f9e1d7.chunk.css"
   },
   {
-    "revision": "bc75aff07701375930cd",
-    "url": "/crispy_directory/static/js/2.f85f06e3.chunk.js"
+    "revision": "99547cef6aa7da8249be",
+    "url": "/crispy_directory/static/js/2.f0e77dd2.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/crispy_directory/static/js/2.f85f06e3.chunk.js.LICENSE.txt"
+    "url": "/crispy_directory/static/js/2.f0e77dd2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4436aef043b2a485868c",
-    "url": "/crispy_directory/static/js/main.a3a29901.chunk.js"
+    "revision": "dd53a547432ae915fcc8",
+    "url": "/crispy_directory/static/js/main.db5acb58.chunk.js"
   },
   {
     "revision": "96e6e2d9aed1ea2c0ae8",
