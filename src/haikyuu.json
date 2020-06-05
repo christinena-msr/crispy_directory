@@ -1,0 +1,173 @@
+[
+    {
+        "id": 1,
+        "name": "Hinata Shoyou",
+        "position": "Middle Blocker",
+        "number": 10,
+        "height": 164.2,
+        "school": "Karasuno High School",
+        "url": "https://www.anime-planet.com/images/characters/shoyo-hinata-55207.jpg?t=1560374311"
+    },
+    {
+        "id": 2,
+        "name": "Kageyama Tobio",
+        "position": "Setter",
+        "number": 9,
+        "height": 181.9,
+        "school": "Karasuno High School",
+        "url": "https://www.anime-planet.com/images/characters/tobio-kageyama-55208.jpg?t=1563546847"
+    },
+    {
+        "id": 3,
+        "name": "Tsukishima Kei",
+        "position": "Middle Blocker",
+        "number": 11,
+        "height": 190.1,
+        "school": "Karasuno High School",
+        "url": "https://www.anime-planet.com/images/characters/kei-tsukishima-59391.jpg?t=1563545364"
+    },
+    {
+        "id": 4,
+        "name": "Yamaguchi Tadashi",
+        "position": "Middle Blocker/Pinch Server",
+        "number": 12,
+        "height": 180.0,
+        "school": "Karasuno High School",
+        "url": "https://vignette.wikia.nocookie.net/haikyuu/images/0/08/TadashiYamaguchi.png/revision/latest/scale-to-width-down/310?cb=20170117211041"
+    },
+    {
+        "id": 5,
+        "name": "Suwamura Daichi",
+        "position": "Wing Spiker/Captain",
+        "number": 1,
+        "height": 176.7,
+        "school": "Karasuno High School",
+        "url": "https://vignette.wikia.nocookie.net/haikyuu/images/3/30/Sawamura.png/revision/latest/scale-to-width-down/310?cb=20150910061856"
+    },
+    {
+        "id": 6,
+        "name": "Sugamura Koshi",
+        "position": "Setter/Pinch Server",
+        "number": 2,
+        "height": 174.6,
+        "school": "Karasuno High School",
+        "url": "https://vignette.wikia.nocookie.net/haikyuu/images/f/f5/Sugawara8.jpg/revision/latest/scale-to-width-down/310?cb=20151004195341"
+    },
+    {
+        "id": 7,
+        "name": "Azumane Asahi",
+        "position": "Wing Spiker/Ace",
+        "number": 3,
+        "height": 186.4,
+        "school": "Karasuno High School",
+        "url": "https://vignette.wikia.nocookie.net/haikyuu/images/6/66/AzumaneAsahi.png/revision/latest/scale-to-width-down/310?cb=20140616133148"
+    },
+    {
+        "id": 8,
+        "name": "Tanaka Ryuunosuke",
+        "position": "Wing Spiker",
+        "number": 5,
+        "height": 178.2,
+        "school": "Karasuno High School",
+        "url": "https://www.anime-planet.com/images/characters/ryunosuke-tanaka-55210.jpg?t=1557943409"
+    },
+    {
+        "id": 9,
+        "name": "Nishinoya Yu",
+        "position": "Libero",
+        "number": 4,
+        "height": 160.5,
+        "school": "Karasuno High School",
+        "url": "https://vignette.wikia.nocookie.net/haikyuu/images/7/73/Y%C5%AB_Nishinoya.PNG/revision/latest/scale-to-width-down/340?cb=20140614115959"
+    },
+    {
+        "id": 10,
+        "name": "Ennoshita Chikara",
+        "position": "Wing Spiker",
+        "number": 6,
+        "height": 176.1,
+        "school": "Karasuno High School",
+        "url": "https://vignette.wikia.nocookie.net/haikyuu/images/3/33/Ennoshita.png/revision/latest/scale-to-width-down/310?cb=20140912052040"
+    },
+    {
+        "id": 11,
+        "name": "Kinoshita Hisashi",
+        "position": "Wing Spiker/Pinch Server",
+        "number": 7,
+        "height": 175.8,
+        "school": "Karasuno High School",
+        "url": "https://vignette.wikia.nocookie.net/haikyuu/images/6/6e/Kinoshita_s4-e5-1.png/revision/latest/scale-to-width-down/310?cb=20200211081427"
+    },
+    {
+        "id": 12,
+        "name": "Narita Kazuhito",
+        "position": "Middle Blocker",
+        "number": 8,
+        "height": 180.9,
+        "school": "Karasuno High School",
+        "url": "https://i.pinimg.com/564x/a1/c0/72/a1c0720afe39fac6f305b7154c1421ac.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Bokuto Kotaro",
+        "position": "Wing Spiker/Ace",
+        "number": 4,
+        "height": 186,
+        "school": "Fukurodani Academy",
+        "url": "https://vignette.wikia.nocookie.net/haikyuu/images/6/6b/Bokuto-s2e4.jpg/revision/latest/scale-to-width-down/310?cb=20191026141139"
+    },
+    {
+        "id": 14,
+        "name": "Akaashi Keiji",
+        "position": "Setter",
+        "number": 5,
+        "height": 18,
+        "school": "Fukurodani Academy",
+        "url": "https://cdn.myanimelist.net/images/characters/3/296296.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Washio Tatsuki",
+        "position": "Middle Blocker",
+        "number": 2,
+        "height": 188,
+        "school": "Fukurodani Academy",
+        "url": "https://vignette.wikia.nocookie.net/haikyuu/images/7/72/Washio_s4-e12-1.png/revision/latest/scale-to-width-down/310?cb=20200328223330"
+    },
+    {
+        "id": 16,
+        "name": "Sarukui Yamato",
+        "position": "Wing Spiker",
+        "number": 3,
+        "height": 181.5,
+        "school": "Fukurodani Academy",
+        "url": "https://vignette.wikia.nocookie.net/haikyuu/images/5/5a/Sarukui1.png/revision/latest/scale-to-width-down/310?cb=20170211043628"
+    },
+    {
+        "id": 17,
+        "name": "Konoha Akinori",
+        "position": "Wing Spiker",
+        "number": 7,
+        "height": 178.8,
+        "school": "Fukurodani Academy",
+        "url": "https://vignette.wikia.nocookie.net/haikyuu/images/7/7f/Akinori_Konoha-1.png/revision/latest/scale-to-width-down/310?cb=20151130125736"
+    },
+    {
+        "id": 19,
+        "name": "Komi Haruki",
+        "position": "Libero",
+        "number": 11,
+        "height": 166,
+        "school": "Fukurodani Academy",
+        "url": "https://vignette.wikia.nocookie.net/haikyuu/images/8/87/Komi1.png/revision/latest/scale-to-width-down/310?cb=20161206025306"
+    },
+    {
+        "id": 20,
+        "name": "Onaga Wataru",
+        "position": "Middle Blocker",
+        "number": 12,
+        "height": 193,
+        "school": "Fukurodani Academy",
+        "url": "https://vignette.wikia.nocookie.net/haikyuu/images/4/4c/Onaga1.png/revision/latest/scale-to-width-down/310?cb=20160131000316"
+    }
+]
