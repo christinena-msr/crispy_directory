@@ -3,25 +3,25 @@ import React from "react";
 function Card(props) {
     return (
         <div className="box">
-            <figure class="card-image is-1by1">
-                <img alt={props.name} src={props.image} />
+            <figure className="card-image is-1by1">
+                <img alt={props.character.name} src={props.character.url} />
             </figure>
             <div className="content">
                 <ul>
                     <li>
-                        <strong>Name:</strong> {props.name}
+                        <strong>Name:</strong> {props.character.name}
                     </li>
                     <li>
-                        <strong>Position:</strong> {props.position}
+                        <strong>Position:</strong> {props.character.position}
                     </li>
                     <li>
-                        <strong>Number:</strong> {props.number}
+                        <strong>Number:</strong> {props.character.number}
                     </li>
                     <li>
-                        <strong>Height:</strong> {props.height} cm
+                        <strong>Height:</strong> {props.character.height} cm
                     </li>
                     <li>
-                        <strong>School:</strong> {props.school}
+                        <strong>School:</strong> {props.character.school}
                     </li>
                 </ul>
             </div>

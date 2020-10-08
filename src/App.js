@@ -1,40 +1,53 @@
 import React, { useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import haikyuu from "./haikyuu.json";
-import Wrapper from './components/Wrapper';
 import Title from './components/Title';
 import Card from './components/Card';
-import SearchForm from './components/SearchForm';
+import Hero from './components/Hero';
+import InputBar from './components/InputBar';
+import Filter from "./components/Filter";
+import Field from './components/Field';
+import Container from './components/Container';
 
 function App() {
   
   const [search, setSearch] = useState("");
-  const [allCharacters, setCharacter] = useState(haikyuu);
   const [results, setResults] = useState([]);
   const [filter, setFilter] = useState("");
   const [school, setSchool] = useState("");
 
-  const positions = ["Wing Spiker", "Middle Blocker", "Libero", "Setter"]
+  const allCharacters = haikyuu;
+  const positions = ["Wing Spiker", "Middle Blocker", "Libero", "Setter"];
+  const schools = ["Karasuno", "Fukurodani"];
 
   const handleInputChange = e => setSearch(e.target.value);
 
   const filterByTag = e => setFilter(e.target.id);
+  const filterBySchool = e => setSchool(e.target.id);
 
+  // const mapCharacter = character => (
+  //   <div key={character} className="column is-4">
+  //     <Card
+  //     character = {character}
+  //     />  
+  //   </div>
+  // );
+
+  // filter by input search
   useEffect(() => {
     const searchResults = allCharacters.filter(character => 
-      character.name.toLowerCase().includes(search)  
-    );
+      character.name.toLowerCase().includes(search));
     setResults(searchResults);
   }, [search, allCharacters]);
 
+  // filter by player position
   useEffect(() => {
     const filterResults = allCharacters.filter(character =>
-      character.position.includes(filter)
-    );
+      character.position.includes(filter));
     setResults(filterResults);
   }, [filter, allCharacters]);
 
+  // filter by school
   useEffect(() => {
     const schoolResults = allCharacters.filter(character =>
       character.school.includes(school));
@@ -43,92 +56,32 @@ function App() {
 
   return (
     <div>
-      <section class="hero is-medium is-bold">
-        <div class="hero-body">
-          <div class="container">
-            <h1 class="title">
-              Haikyuu Characters!
-            </h1>
-            <div className="field">
-              <div className="control">
-                <input
-                  onChange={handleInputChange}
-                  name="search"
-                  type="text"
-                  className="input"
-                  placeholder="Hinata Shoyo"
-                  id="name"
-                />
-              </div>
-              <br></br>
-              <div class="notification">
-                <div class="subtitle">
-                  <h2>Filter by Position</h2>
-                  <br></br>
-                  <div className="field is-grouped">
-                    {positions.map(position => 
-                    <div className="control">
-                      <button className="button" onClick={filterByTag} id={position}>{position}</button>
-                    </div>
-                    )}
-                    <button className="button" onClick={filterByTag} id="">Clear</button>
-                  </div>
-                </div>
-              </div>
-              <div class="notification">
-                <div class="subtitle">
-                  <h2>Filter by School</h2>
-                  <br></br>
-                  <div className="field is-grouped">
-                    <div className="control">
-                      <button className="button" onClick={e => setSchool("Karasuno")}>Karasuno</button>
-                    </div>
-                    <div className="control">
-                      <button className="button" onClick={e => setSchool("Fukurodani")}>Fukurodani</button>
-                    </div>
-                    <div className="control">
-                    <button className="button" onClick={e => setSchool("")}>Clear</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div className="container">
-        <div className="columns is-multiline">
+      <Hero>
+        <Title />
+        <Field>
+          <InputBar handleInputChange = {handleInputChange} />
+          <br></br>
+          <Filter key = "Position" category = "Position" options = {positions} filter={filterByTag}/>
+          <Filter key = "School" category = "School" options = {schools} filter = {filterBySchool} />
+        </Field>
+      </Hero>
+      <Container>
         {results.length === 0 ? 
-          allCharacters.map(character => (
-            <div className="column is-4">
-              <Card
-              key={character.id}
-              name={character.name}
-              image={character.url}
-              position={character.position}
-              number={character.number}
-              height={character.height}
-              school={character.school} 
-              />  
-            </div>
-            
-          ))
-          :
-          results.map(character => (
-            <div className="column is-4">
+        allCharacters.map(character => (
+          <div key={character.name} className="column is-4">
             <Card
-              key={character.id}
-              name={character.name}
-              image={character.url}
-              position={character.position}
-              number={character.number}
-              height={character.height}
-              school={character.school} 
-            />
-            </div>
-          ))}
-        </div>
-      </div>
+            character = {character}
+            />  
+          </div>))
+        :
+        results.map(character => (
+          <div key={character.name} className="column is-4">
+            <Card
+            character = {character}
+            />  
+          </div>))
+          }
+      </Container>
     </div>
   );
 }
